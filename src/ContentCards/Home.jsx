@@ -39,8 +39,7 @@ export default function Home() {
           ]}
           wrapper="span"
           speed={5}
-          style={{ fontSize: '2rem', display: 'inline-block', color: "blue", fontWeight: "bold", textDecoration: "underline" }}
-
+          className='type-animation'
           repeat={Infinity}
         />
         <Button onClick={() => window.location.href = 'https://drive.google.com/file/d/171iXEvHpJVrk5VHN1KNiUiNbcPNoenzR/view?usp=drive_link'} style={{ marginTop: "20px", backgroundColor: "#6495ED", color: "white", marginBottom: "20px" }} onMouseOver={(e) => e.currentTarget.style.backgroundColor = "blue"} onMouseOut={(e) => e.currentTarget.style.backgroundColor = "#6495ED"}>Resume</Button>

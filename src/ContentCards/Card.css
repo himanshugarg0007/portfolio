@@ -1,4 +1,4 @@
-#home-text{
+#home-text {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,8 @@
     padding: 20px;
     font-size: 30px;
 }
-#home-main{
+
+#home-main {
     display: flex;
     gap: 30px;
     padding: 100px;
@@ -17,32 +18,45 @@
     color: black;
     padding: 20px;
     text-align: center;
-    
+
 }
+.type-animation{
+    font-size: 2rem;
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #megachatbot {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 70px;
     width: 50%;
-  }
-#about{
+}
+
+#about {
     display: flex;
     margin: auto;
     align-items: center;
     gap: 30px;
     padding: 100px;
 }
-#aboutText{
+
+#aboutText {
     padding: 20px;
     width: 50%;
 }
-#about img{
+
+#about img {
     width: 300px;
     border-radius: 20%;
 }
 
-#skills-section{
+#skills-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,20 +66,23 @@
     text-align: center;
     font-size: 30px;
 }
-#skills-list{
+
+#skills-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 40px;
     gap: 20px;
 }
-#skills-list > div{
+
+#skills-list>div {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     gap: 20px;
 }
-#skills-list > div:hover{
+
+#skills-list>div:hover {
     transform: scale(1.1);
     transition: 0.5s;
     background-attachment: fixed;
@@ -73,17 +90,20 @@
     border-radius: 10px;
 
 }
-#skills-list > div p{
+
+#skills-list>div p {
     font-size: 18px;
 }
-#projects{
+
+#projects {
     background-color: #C8E1E6;
     color: black;
     padding: 20px;
     text-align: center;
     font-size: 30px;
 }
-#project-card{
+
+#project-card {
     margin: auto;
     margin-top: 40px;
     width: 40%;
@@ -93,29 +113,34 @@
     padding: 20px;
     gap: 20px;
 }
-#project-card img{
+
+#project-card img {
     width: 100%;
     border: 2px solid blue;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 10px;
 }
-#project-card h2{
+
+#project-card h2 {
     font-size: 34px;
     font-weight: bold;
     text-decoration: underline;
     text-decoration-color: blue;
 }
-#project-card p{
+
+#project-card p {
     font-size: 19px;
 }
-#project-card:hover{
+
+#project-card:hover {
     transform: scale(1.1);
     transition: 0.5s;
     background-color: aliceblue;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-#contact{
+
+#contact {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -124,7 +149,8 @@
     padding: 20px;
     height: 50vh;
 }
-#contact div{
+
+#contact div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -133,14 +159,15 @@
     width: 100%;
     gap: 20px;
 }
-#contact > div > h2{
+
+#contact>div>h2 {
     font-size: 20px;
 }
 
 
 
 @media all and (max-width: 600px) {
-    #home-main{
+    #home-main {
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -151,87 +178,125 @@
         padding: 20px;
         text-align: center;
     }
-    #home-text{
+
+    #home-text {
         display: flex;
         flex-direction: column;
         height: fit-content;
         padding: 10px;
     }
-    #home-text h1{
+    .type-animation{
         font-size: 20px;
     }
-    #about{
+
+    #home-text h1 {
+        font-size: 20px;
+    }
+
+    #megachatbot {
+        align-items: center;
+        width: 90%;
+        font-size: large;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    #home-text h1 {
+        font-size: 20px;
+    }
+
+    #about {
         display: flex;
         flex-direction: column;
     }
-    #about img{
+
+    #about img {
         width: 100%;
     }
-    #aboutText{
+
+    #aboutText {
         width: 100%;
     }
-    #social{
+
+    #social {
         display: flex;
         flex-direction: column;
     }
-    #skills-list{
+
+    #skills-list {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    #skills-list > div p{
-    font-size: 14px;
+
+    #skills-list>div p {
+        font-size: 14px;
     }
-    #projects{
+
+    #projects {
         height: fit-content;
         padding-bottom: 60px;
         flex-direction: column;
     }
-    #project-card{
+
+    #project-card {
         width: 90%;
     }
-    #contact{
+
+    #contact {
         height: fit-content;
         padding-bottom: 60px;
     }
-    
+
 }
+
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-    #home-main{
+    #home-main {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #home-text{
+
+    #home-text {
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
-    #home-text h1{
-        font-size: 20px;
+
+    #home-text h1 {
+        font-size: 24px;
     }
-    #about{
+
+
+    #about {
         display: flex;
         flex-direction: column;
     }
-    #aboutText{
+
+    #aboutText {
         margin-top: 80px;
         width: 100%;
     }
-    #skills-list{
+
+    #skills-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    #skills-list > div p{
+
+    #skills-list>div p {
         font-size: 14px;
     }
-    #projects{
+
+    #projects {
         flex-direction: column;
         height: fit-content;
         padding-bottom: 60px;
     }
-    #contact{
+
+    #contact {
         height: fit-content;
         padding-bottom: 60px;
     }
-    
+
 }
