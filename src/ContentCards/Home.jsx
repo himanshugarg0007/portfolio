@@ -42,7 +42,7 @@ export default function Home() {
           className='type-animation'
           repeat={Infinity}
         />
-        <Button onClick={() => window.location.href = 'https://drive.google.com/file/d/171iXEvHpJVrk5VHN1KNiUiNbcPNoenzR/view?usp=drive_link'} style={{ marginTop: "20px", backgroundColor: "#6495ED", color: "white", marginBottom: "20px" }} onMouseOver={(e) => e.currentTarget.style.backgroundColor = "blue"} onMouseOut={(e) => e.currentTarget.style.backgroundColor = "#6495ED"}>Resume</Button>
+        <Button onClick={() => window.location.href = 'https://drive.google.com/file/d/1NAPagWqo9Nta7_sHBt2BJlEmm4UU3JoT/view?usp=sharing'} style={{ marginTop: "20px", backgroundColor: "#6495ED", color: "white", marginBottom: "20px" }} onMouseOver={(e) => e.currentTarget.style.backgroundColor = "blue"} onMouseOut={(e) => e.currentTarget.style.backgroundColor = "#6495ED"}>Resume</Button>
         <HStack id='social' spacing={4} >
           <Button onClick={() => window.location.href = 'https://www.linkedin.com/in/himanshu-garg-68a972281/'} colorScheme='linkedin' leftIcon={<FaLinkedin />}>
             Linkdin

@@ -31,7 +31,7 @@ const Links = [
 <AnchorLink href='#about'>About</AnchorLink>,
 <AnchorLink href='#skills-section'>Skills</AnchorLink>,
 <AnchorLink href='#projects'>Projects</AnchorLink>,
-<button onClick={() => window.location.href = 'https://drive.google.com/file/d/171iXEvHpJVrk5VHN1KNiUiNbcPNoenzR/view?usp=drive_link'}>Resume</button>,
+<button onClick={() => window.location.href = 'https://drive.google.com/file/d/1NAPagWqo9Nta7_sHBt2BJlEmm4UU3JoT/view?usp=sharing'}>Resume</button>,
 <AnchorLink href='#contact'>Contact</AnchorLink>]
 
 const NavLink = (props: Props) => {
