@@ -15,8 +15,8 @@ export default function Projects() {
             <p>{project.description}</p>
             <p>TechStack : {project.techStack}</p>
             <div style={{display:"flex",justifyContent:"space-between", marginTop:"10px"}}>
-              <Button colorScheme='blue' onClick={() => window.location.href = project.githubLink}>View Github</Button>
-              <Button colorScheme='blue' onClick={() => window.location.href = project.Sitelink}>View Site</Button>
+              <Button colorScheme='blue' onClick={() => window.open(project.githubLink)}>View Github</Button>
+              <Button colorScheme='blue' onClick={() => window.open(project.Sitelink)}>View Site</Button>
             </div>
             </div>
         </div>
