@@ -1,5 +1,5 @@
 import './Card.css';
-import DP from "../assets/DP.jpg";
+import DP from "../assets/DP.png";
 export default function About() {
   return (
     <div id='about' style={{backgroundImage:`url(${"https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-031.jpg"})`}}>

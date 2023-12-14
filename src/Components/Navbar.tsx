@@ -1,5 +1,5 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import DP from '../assets/DP.jpg';
+import DP from '../assets/DP.png';
 import Himanshu from '../assets/Himanshu.png';
 import React,{ReactNode} from 'react';
 
@@ -31,7 +31,7 @@ const Links = [
 <AnchorLink href='#about'>About</AnchorLink>,
 <AnchorLink href='#skills-section'>Skills</AnchorLink>,
 <AnchorLink href='#projects'>Projects</AnchorLink>,
-<button onClick={() => window.location.href = 'https://drive.google.com/file/d/1NAPagWqo9Nta7_sHBt2BJlEmm4UU3JoT/view?usp=sharing'}>Resume</button>,
+<button onClick={() => window.open('https://drive.google.com/file/d/112Q8OKj61G9IpcLvhKuKZkAlrny-wZFr/view?usp=drive_link', '_blank')}>Resume</button>,
 <AnchorLink href='#contact'>Contact</AnchorLink>]
 
 const NavLink = (props: Props) => {
