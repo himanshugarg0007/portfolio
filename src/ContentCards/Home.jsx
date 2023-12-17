@@ -5,6 +5,16 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HStack } from '@chakra-ui/react';
 import { useState, useEffect } from 'react'
 export default function Home() {
+  window.__EMBEDDED_DATA__ = {
+      client: {
+        contextId: "f3790ea1-3fdc-4f5e-b291-d3c8a68648bb",
+        authKey: "c0faJM9u"
+      },
+      customData: {
+        botName: `Himanshu Garg's Agent`,
+      },
+      containerDiv: 'megachatbot',
+    };
 
   const [isRendered, setIsRendered] = useState(false);
 
@@ -12,9 +22,7 @@ export default function Home() {
     if (document.querySelector('#root') !== null) {
       setIsRendered(true);
     }
-  }, []);
-
-  if (isRendered) {
+    if (isRendered) {
     const script = document.createElement("script");
 
     script.src = "https://embeddable-chatbot.s3.ap-south-1.amazonaws.com/index.js";
@@ -22,6 +30,12 @@ export default function Home() {
 
     document.body.appendChild(script);
   }
+    return () => {
+      setIsRendered(false);
+    };
+  }, [isRendered]);
+
+  
   return (
     <div id='home-main'>
       <div id='home-text'>
